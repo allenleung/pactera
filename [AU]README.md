@@ -13,18 +13,6 @@ The script will now only run between lines 500 to 1000. Avoid having both lines 
 
 !!!The purpose of this is to make it look like we're still only doing a certain amount of lines and lines per hour everyday!!!
 
-How to do this on a mac:
-1. Move the sheet that you are working on to your desktop.
-2. Open up a terminal (Command space > terminal)
-3. Type in this command: cd desktop
-4. Then type: vim [name of your sheet] 
- - Include any extensions at the end [name of your sheet.txt]
-5. Enter the commands exactly as follows:
- :%s/111/Desired start line/g
- :%s/222/Desired end line/g
-6. After running both of those commands, type
-:wq [This will save the edits made to the sheet and close the vim text editor]
-
 South/Western Australia is currently labeled as South/Western[State] Australia[Country]. You must re-lable Australia to [State].
 This is because another line in the script labels any instance of Australia as [Country]. I've not been able to resolve this yet.
 

@@ -18,7 +18,7 @@ How to do this on a mac:
 2. Open up a terminal (Command space > terminal)
 3. Type in this command: cd desktop
 4. Then type: vim [name of your sheet] 
- - Include any extensions and the end [name of your sheet.txt]
+ - Include any extensions at the end [name of your sheet.txt]
 5. Enter the commands exactly as follows:
  :%s/111/Desired start line/g
  :%s/222/Desired end line/g

@@ -22,6 +22,8 @@ If you don't need to edit the query at all, the labels will stay gray and not ac
 
 Only 1 word in the query must be labeled through the tool and the script can do the rest. You can test this out by going to the next query without labeling anything, and go back. Then label one thing, anything, in the query and go next then come back. Everything that the script labeled should be green now.
 
+Be careful with out of market queries because the script will still label them. Be sure to UNKNOWN everything and mark as OOM.
+
 List of everything this script labels: https://docs.google.com/spreadsheets/d/13Lk_XoEZ7AsVLwG_JIXmGpiZ1_JtILwdRADwfVEL-nc/edit?usp=sharing
 
 You all have editing rights to this document, feel free to add anything not on there, but let me know if you do so.

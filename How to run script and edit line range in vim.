@@ -1,0 +1,22 @@
+How to run this script:
+
+1. Make sure both the sheet and script are in the same file path (I leave both on my desktop)
+2. Run the following command:
+
+sed -i -E -f aus.sed sheetname.txt
+
+Replace sheetname with the name of your sheet.
+
+How to edit the range of lines in VIM:
+
+1. Move the sheet that you're working on to your desktop.
+2. Open up a terminal (Command space > terminal)
+3. Type in this command: cd desktop
+4. Then type: vim sheetname
+ - Replace sheetname with the name of your sheet
+ - Include any extensions at the end [name of your sheet.txt]
+5. Enter the commands exactly as follows:
+ :%s/111/Desired start line/g
+ :%s/222/Desired end line/g
+6. After running both of those commands, type
+:wq [This will save the edits made to the sheet and close the vim text editor]
